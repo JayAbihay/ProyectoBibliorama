@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Mwp2CJl87Y=",
+  "dgSpecHash": "29De16e+ce8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\Proyecto.Infraestructura\\Proyecto.Infraestructura.csproj",
+  "projectFilePath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Infraestructura\\Proyecto.Infraestructura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gesel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gesel\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",

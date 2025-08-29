@@ -10,3 +10,16 @@ C:\Users\gesel\source\repos\Proyecto\Proyecto.Dominio\obj\Debug\net6.0\refint\Pr
 C:\Users\gesel\source\repos\Proyecto\Proyecto.Dominio\obj\Debug\net6.0\Proyecto.Dominio.pdb
 C:\Users\gesel\source\repos\Proyecto\Proyecto.Dominio\obj\Debug\net6.0\ref\Proyecto.Dominio.dll
 C:\Users\gesel\source\repos\Proyecto\Proyecto.Dominio\obj\Debug\net6.0\Proyecto.Dominio.csproj.AssemblyReference.cache
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\bin\Debug\net6.0\Proyecto.Dominio.deps.json
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\bin\Debug\net6.0\Proyecto.Dominio.dll
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\bin\Debug\net6.0\Proyecto.Dominio.pdb
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\obj\Debug\net6.0\Proyecto.Dominio.csproj.AssemblyReference.cache
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\obj\Debug\net6.0\Proyecto.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\obj\Debug\net6.0\Proyecto.Dominio.AssemblyInfoInputs.cache
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\obj\Debug\net6.0\Proyecto.Dominio.AssemblyInfo.cs
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\obj\Debug\net6.0\Proyecto.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\obj\Debug\net6.0\Proyecto.Dominio.sourcelink.json
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\obj\Debug\net6.0\Proyecto.Dominio.dll
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\obj\Debug\net6.0\refint\Proyecto.Dominio.dll
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\obj\Debug\net6.0\Proyecto.Dominio.pdb
+C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto.Dominio\obj\Debug\net6.0\ref\Proyecto.Dominio.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ve3CJBTX5KM=",
+  "dgSpecHash": "GEqcnkFLa8E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\Proyecto.Dominio\\Proyecto.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Dominio\\Proyecto.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gesel\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\gesel\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.3.0\\microsoft.aspnetcore.authentication.core.2.3.0.nupkg.sha512",

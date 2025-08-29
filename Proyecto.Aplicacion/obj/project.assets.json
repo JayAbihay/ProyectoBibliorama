@@ -5765,11 +5765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gesel\\source\\repos\\Proyecto\\Proyecto.Aplicacion\\Proyecto.Aplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Aplicacion\\Proyecto.Aplicacion.csproj",
       "projectName": "Proyecto.Aplicacion",
-      "projectPath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\Proyecto.Aplicacion\\Proyecto.Aplicacion.csproj",
+      "projectPath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Aplicacion\\Proyecto.Aplicacion.csproj",
       "packagesPath": "C:\\Users\\gesel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\Proyecto.Aplicacion\\obj\\",
+      "outputPath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5791,11 +5791,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\gesel\\source\\repos\\Proyecto\\Proyecto.Dominio\\Proyecto.Dominio.csproj": {
-              "projectPath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\Proyecto.Dominio\\Proyecto.Dominio.csproj"
+            "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Dominio\\Proyecto.Dominio.csproj": {
+              "projectPath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Dominio\\Proyecto.Dominio.csproj"
             },
-            "C:\\Users\\gesel\\source\\repos\\Proyecto\\Proyecto.Infraestructura\\Proyecto.Infraestructura.csproj": {
-              "projectPath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\Proyecto.Infraestructura\\Proyecto.Infraestructura.csproj"
+            "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Infraestructura\\Proyecto.Infraestructura.csproj": {
+              "projectPath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Infraestructura\\Proyecto.Infraestructura.csproj"
             }
           }
         }

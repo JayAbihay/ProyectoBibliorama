@@ -12,7 +12,8 @@ namespace Proyecto.Infraestructura.Data
 
         public DbSet<CategoriaModel> Categorias { get; set; }
         public DbSet<LibrosModel> Libros { get; set; }
-        
+        public DbSet<InformacionEmpresaModel> InformacionEmpresa { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 

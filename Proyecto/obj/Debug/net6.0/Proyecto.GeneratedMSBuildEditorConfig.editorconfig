@@ -9,87 +9,95 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proyecto
 build_property.RootNamespace = Proyecto
-build_property.ProjectDir = C:\Users\gesel\source\repos\Proyecto\Proyecto\
+build_property.ProjectDir = C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gesel\source\repos\Proyecto\Proyecto
+build_property.MSBuildProjectDirectory = C:\Users\gesel\source\repos\Proyecto\ProyectoBibliorama\Proyecto
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Dashboard/Views/Home/Index.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Dashboard/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Dashboard/Views/Home/Privacy.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Dashboard/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Dashboard/_ViewImports.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Dashboard/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Dashboard/_ViewStart.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Dashboard/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Productos/Views/Categorias/Crear.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Empresa/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wcmVzYVxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Empresa/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wcmVzYVxfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Productos/Views/Categorias/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdG9zXFZpZXdzXENhdGVnb3JpYXNcQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Productos/Views/Categorias/Editar.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Productos/Views/Categorias/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdG9zXFZpZXdzXENhdGVnb3JpYXNcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Productos/Views/Categorias/Eliminar.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Productos/Views/Categorias/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdG9zXFZpZXdzXENhdGVnb3JpYXNcRWxpbWluYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Productos/Views/Categorias/Index.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Productos/Views/Categorias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdG9zXFZpZXdzXENhdGVnb3JpYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Productos/Views/Libros/Crear.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Productos/Views/Libros/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdG9zXFZpZXdzXExpYnJvc1xDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Productos/Views/Libros/Editar.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Productos/Views/Libros/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdG9zXFZpZXdzXExpYnJvc1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Productos/Views/Libros/Eliminar.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Productos/Views/Libros/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdG9zXFZpZXdzXExpYnJvc1xFbGltaW5hci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Productos/Views/Libros/Index.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Productos/Views/Libros/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdG9zXFZpZXdzXExpYnJvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Productos/_ViewImports.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Productos/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdG9zXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Areas/Productos/_ViewStart.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Productos/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdG9zXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Views/Shared/Error.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Views/_ViewImports.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Views/_ViewStart.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gesel/source/repos/Proyecto/Proyecto/Views/Shared/_Layout.cshtml]
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-llr71ombjl

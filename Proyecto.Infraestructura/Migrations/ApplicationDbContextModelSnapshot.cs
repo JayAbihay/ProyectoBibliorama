@@ -50,6 +50,110 @@ namespace Proyecto.Infraestructura.Migrations
                     b.ToTable("Categorias");
                 });
 
+            modelBuilder.Entity("Proyecto.Dominio.Entidades.InformacionEmpresaModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("CarouselImage1Path")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CarouselImage1PathEstado")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CarouselImage2Path")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CarouselImage2PathEstado")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CarouselImage3Path")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CarouselImage3PathEstado")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CorreoElectronico")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DescripcionCarousel1")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DescripcionCarousel1Estado")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DescripcionCarousel2")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DescripcionCarousel2Estado")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DescripcionCarousel3")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DescripcionCarousel3Estado")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("EstadoCorreoElectronico")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EstadoDescripcion")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EstadoDireccion")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EstadoIdentificacion")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EstadoLogo")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EstadoNombre")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EstadoTelefono")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Identificacion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LogoImagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NombreEmpresa")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Telefono")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("InformacionEmpresa");
+                });
+
             modelBuilder.Entity("Proyecto.Dominio.Entidades.LibrosModel", b =>
                 {
                     b.Property<int>("Id")
@@ -82,7 +186,6 @@ namespace Proyecto.Infraestructura.Migrations
                         .HasColumnType("nvarchar(13)");
 
                     b.Property<string>("ImagePath")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Precio")
