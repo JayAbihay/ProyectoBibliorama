@@ -1,0 +1,35 @@
+﻿@model Proyecto.Dominio.Entidades.DTOs.CategoriaDTO
+
+@{
+    ViewData["Title"] = "Eliminar Categoría";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center">Editar Categoría</h1>
+
+
+@using (Html.BeginForm("Eliminar", "Categorias", FormMethod.Post, new { @class = "mt-4" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 m-4">
+            @Html.LabelFor(Model => Model.Nombre)
+            @Html.TextBoxFor(Model => Model.Nombre, new { @class = "form-control", placeholder = "Ingrese el nombre de la categoría", @disabled = true })
+            @Html.ValidationMessageFor(Model => Model.Nombre, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 m-4">
+            @Html.LabelFor(Model => Model.Descripcion)
+            @Html.TextAreaFor(Model => Model.Descripcion, new { @class = "form-control", placeholder = "Provee una descripción adecuada para la categoría", @disabled = true })
+            @Html.ValidationMessageFor(Model => Model.Descripcion, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-lg-12 float-end" id="btnCrear">
+            <a class="btn btn-info" asp-action="Index" asp-area="Productos" asp-controller="Categorias">Volver al Inicio</a>
+            <button type="submit" class="btn btn-danger">Eliminar Categoría</button>
+        </div>
+    </div>
+
+
+}

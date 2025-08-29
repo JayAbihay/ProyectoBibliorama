@@ -1,0 +1,78 @@
+﻿@using Proyecto.Dominio.Entidades.DTOs
+@model LibrosDTO
+
+@{
+    ViewData["Title"] = "Eliminar Libro";
+}
+
+<h1 class="text-center">Editar libro</h1>
+
+<div class="float-end"><a asp-action="Index" asp-controller="Libros" class="btn btn-secondary">Volver al Inicio</a></div>
+<hr />
+<br />
+
+<form asp-controller="Libros" asp-action="Eliminar" method="post" class="mt-4">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="container">
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            @Html.LabelFor(model => model.CategoriaId)
+            @Html.DropDownListFor(model => model.CategoriaId, new SelectList(Model.CategoriasList, "Id", "Nombre"), "--Elige una categoría--", new { @class = "form-control", @disabled = true})
+            @Html.ValidationMessageFor(model => model.CategoriaId, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            @Html.LabelFor(model => model.ISBN)
+            @Html.TextBoxFor(model => model.ISBN, new { @class = "form-control", @placeholder = "Ingresa el ISBN del libro...", @disabled = true })
+            @Html.ValidationMessageFor(model => model.ISBN, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            @Html.LabelFor(model => model.Titulo)
+            @Html.TextBoxFor(model => model.Titulo, new { @class = "form-control", @placeholder = "Ingresa el título del libro", @disabled = true })
+            @Html.ValidationMessageFor(model => model.Titulo, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            @Html.LabelFor(model => model.Autor)
+            @Html.TextBoxFor(model => model.Autor, new { @class = "form-control", @placeholder = "Ingresa el autor del libro", @disabled = true })
+            @Html.ValidationMessageFor(model => model.Autor, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            @Html.LabelFor(model => model.Descripcion)
+            @Html.TextAreaFor(model => model.Descripcion, new { @class = "form-control", @placeholder = "Ingresa la descripción del libro...", @disabled = true })
+            @Html.ValidationMessageFor(model => model.Descripcion, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            @Html.LabelFor(model => model.Precio)
+            @Html.TextBoxFor(model => model.Precio, new { @class = "form-control", @placeholder = "Ingresa el precio del libro...", @disabled = true })
+            @Html.ValidationMessageFor(model => model.Precio, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            @Html.LabelFor(model => model.Cantidad)
+            @Html.TextBoxFor(model => model.Cantidad, new { @class = "form-control", @placeholder = "Ingresa la cantidad de libros...", @disabled = true })
+            @Html.ValidationMessageFor(model => model.Cantidad, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            @Html.LabelFor(model => model.FechaPublicacion)
+            @Html.TextBoxFor(model => model.FechaPublicacion, "{0:yyyy-MM-dd}", new { @class = "form-control", @type = "date", @disabled = true })
+            @Html.ValidationMessageFor(model => model.FechaPublicacion, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="float-end col-lg-6 col-md-12 col-sm-12">
+            <button type="submit" class="btn btn-danger mt-4"><i class="bi bi-trash"></i> Eliminar</button>
+        </div>
+
+    </div>
+
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

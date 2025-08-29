@@ -1,0 +1,36 @@
+﻿@using Proyecto.ViewModels
+@model ListadoCategoriaViewModel
+
+@{
+    ViewData["Title"] = "Categorías";
+}
+
+<h1 class="text-center">Listado de Categorías</h1>
+<div class="float-end">
+<a class="btn btn-primary" asp-action="Crear" asp-controller="Categorias">Añadir Categoría +</a>
+
+</div>
+<hr />
+<br />
+<table class="table table-bordered">
+    <tr>
+        <td>ID</td>
+        <td>Nombre</td>
+        <td>Descripción</td>
+        <td>Acciones</td>
+    </tr>
+
+    @foreach(var categoria in Model.Categorias)
+    {
+        <tr>
+            <td>@categoria.Id</td>
+            <td>@categoria.Nombre</td>
+            <td>@categoria.Descripcion</td>
+            <td>
+                <a class="btn btn-primary" href="@Url.Action("Editar", "Categorias", new { id = categoria.Id })">Editar</a>
+                <a class="btn btn-danger" href="@Url.Action("Eliminar", "Categorias", new { id = categoria.Id })">Eliminar</a>
+            </td>
+        </tr>
+    }
+
+</table>

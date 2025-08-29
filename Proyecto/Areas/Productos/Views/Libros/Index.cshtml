@@ -1,0 +1,51 @@
+﻿@using Proyecto.ViewModels
+@model ListadoLibroViewModel
+
+@{
+    ViewData["Title"] = "Listado de Libros";
+}
+
+<h1 class="text-center">Listado de Libros</h1>
+<div class="float-end">
+    <a class="btn btn-primary" asp-action="Crear" asp-controller="Libros">Añadir Libro +</a>
+
+</div>
+<hr />
+<br />
+<div class="container">
+    <table class="table table-bordered">
+        <tr>
+            <td>Imagen</td>
+            <td>ID</td>
+            <td>ISBN</td>
+            <td>Título</td>
+            <td>Autor</td>
+            <td>Categoría</td>
+            <td>Descripción</td>
+            <td>Fecha de Publicación</td>
+            <td>Precio</td>
+            <td>Cantidad</td>
+            <td>Acciones</td>
+        </tr>
+
+        @foreach (var libro in Model.Libros)
+        {
+            <tr>
+                <td><img src="@libro.ImagePath" width="50" height="80" /></td>
+                <td>@libro.Id</td>
+                <td>@libro.ISBN</td>
+                <td>@libro.Titulo</td>
+                <td>@libro.Autor</td>
+                <td>@libro.Categoria.Nombre</td>
+                <td>@libro.Descripcion</td>
+                <td>@libro.FechaPublicacion</td>
+                <td>@libro.Precio EUROS</td>
+                <td>@libro.Cantidad</td>
+                <td>
+                    <a class="btn btn-primary" href="@Url.Action("Editar", "Libros", new { id = libro.Id })">Editar</a>
+                    <a asp-area="Productos" asp-controller="Libros" asp-action="Eliminar" asp-route-id="@libro.Id" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

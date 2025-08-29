@@ -1,0 +1,136 @@
+﻿@using Proyecto.ViewModels
+@model ListadoLibroViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenidos a "Bibliorama"</h1>
+</div>
+<div class="container">
+    <h4>Literatura</h4>
+    @foreach(var item in Model.Libros.Where(c => c.Categoria.Nombre == "Literatura").Take(6))
+    {
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+          <img src="@item.ImagePath" width="100" height="160" />
+            <p><b>@item.Titulo </b>- @item.Autor</p>
+      </div>
+    }
+</div>
+
+<hr />
+
+<div class="container">
+    <h4>Ciencias</h4>
+    @foreach (var item in Model.Libros.Where(c => c.Categoria.Nombre == "Ciencias").Take(6))
+    {
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <img src="@item.ImagePath" width="100" height="160" />
+            <p><b>@item.Titulo</b>- @item.Autor</p>
+        </div>
+    }
+</div>
+
+<hr />
+
+<div class="container">
+    <h4>Historia y Geografía</h4>
+    @foreach (var item in Model.Libros.Where(c => c.Categoria.Nombre == "Historia y Geografía").Take(6))
+    {
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <img src="@item.ImagePath" width="100" height="160" />
+            <p><b>@item.Titulo</b>- @item.Autor</p>
+        </div>
+    }
+</div>
+
+<hr />
+
+<div class="container">
+    <h4>Arte y Cultura</h4>
+    @foreach (var item in Model.Libros.Where(c => c.Categoria.Nombre == "Arte y Cultura").Take(6))
+    {
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <img src="@item.ImagePath" width="100" height="160" />
+            <p><b>@item.Titulo</b>- @item.Autor</p>
+        </div>
+    }
+</div>
+
+<hr />
+
+<div class="container">
+    <h4>Sociedad y Humanidades</h4>
+    @foreach (var item in Model.Libros.Where(c => c.Categoria.Nombre == "Sociedad y Humanidades").Take(6))
+    {
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <img src="@item.ImagePath" width="100" height="160" />
+            <p><b>@item.Titulo</b>- @item.Autor</p>
+        </div>
+    }
+</div>
+
+<hr />
+<div class="container">
+    <h4>Tecnología y Ciencias Aplicadas</h4>
+    @foreach (var item in Model.Libros.Where(c => c.Categoria.Nombre == "Tecnología y Ciencias Aplicadas").Take(6))
+    {
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <img src="@item.ImagePath" width="100" height="160" />
+            <p><b>@item.Titulo</b>- @item.Autor</p>
+        </div>
+    }
+</div>
+
+<hr />
+
+<div class="container">
+    <h4>Psicología y autoayuda</h4>
+    @foreach (var item in Model.Libros.Where(c => c.Categoria.Nombre == "Tecnología y Ciencias Aplicadas").Take(6))
+    {
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <img src="@item.ImagePath" width="100" height="160" />
+            <p><b>@item.Titulo</b>- @item.Autor</p>
+        </div>
+    }
+</div>
+
+<hr />
+
+<div class="container">
+    <h4>Negocios y Economía</h4>
+    @foreach (var item in Model.Libros.Where(c => c.Categoria.Nombre == "Negocios y Economía").Take(6))
+    {
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <img src="@item.ImagePath" width="100" height="160" />
+            <p><b>@item.Titulo</b>- @item.Autor</p>
+        </div>
+    }
+</div>
+
+<hr />
+
+<div class="container">
+    <h4>Entretenimiento y ocio</h4>
+    @foreach (var item in Model.Libros.Where(c => c.Categoria.Nombre == "Entretenimiento y ocio").Take(6))
+    {
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <img src="@item.ImagePath" width="100" height="160" />
+            <p><b>@item.Titulo</b>- @item.Autor</p>
+        </div>
+    }
+</div>
+
+<hr />
+
+<div class="container">
+    <h4>Cocina, Hogar y Estilo de vida</h4>
+    @foreach (var item in Model.Libros.Where(c => c.Categoria.Nombre == "Cocina, Hogar y Estilo de vida").Take(6))
+    {
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+            <img src="@item.ImagePath" width="100" height="160" />
+            <p><b>@item.Titulo</b>- @item.Autor</p>
+        </div>
+    }
+</div>
