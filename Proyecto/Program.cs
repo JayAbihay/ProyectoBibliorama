@@ -20,10 +20,11 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 // Dependency Injection para servicios 
 builder.Services.AddScoped<ICategoriaService, CategoriaService>();
 builder.Services.AddScoped<ILibroService, LibroService>();
-
+builder.Services.AddScoped<IInformacionEmpresaService, InformacionEmpresaService>();
 // Dependency Injection para repositorios
 builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
 builder.Services.AddScoped<ILibrosRepositorio, LibrosRepositorio>();
+builder.Services.AddScoped<IInformacionEmpresaRepositorio, InformacionEmpresaRepositorio>();
 
 var app = builder.Build();
 

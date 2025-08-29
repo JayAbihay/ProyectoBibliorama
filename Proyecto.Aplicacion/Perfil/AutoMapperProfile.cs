@@ -13,6 +13,9 @@ namespace Proyecto.Aplicacion.Perfil
 
             CreateMap<LibrosModel, LibrosDTO>();
             CreateMap<LibrosDTO, LibrosModel>();
+
+            CreateMap<InformacionEmpresaModel, InformacionEmpresaDTO>();
+            CreateMap<InformacionEmpresaDTO, InformacionEmpresaModel>();
         }
 
     }

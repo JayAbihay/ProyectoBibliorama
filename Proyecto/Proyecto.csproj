@@ -24,8 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Empresa\Controllers\" />
-    <Folder Include="Areas\Empresa\Views\" />
+    <Folder Include="Areas\Empresa\Views\InformacionEmpresa\" />
     <Folder Include="Controllers\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>

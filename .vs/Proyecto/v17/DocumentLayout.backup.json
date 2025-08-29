@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF79F63A-5EC2-496C-901F-0E6B3A57AE39}|Proyecto.Dominio\\Proyecto.Dominio.csproj|c:\\users\\gesel\\source\\repos\\proyecto\\proyectobibliorama\\proyecto.dominio\\entidades\\enums\\estadodireccionenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF79F63A-5EC2-496C-901F-0E6B3A57AE39}|Proyecto.Dominio\\Proyecto.Dominio.csproj|solutionrelative:proyecto.dominio\\entidades\\enums\\estadodireccionenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1820747-77E0-45B4-934B-5A2366A9BA32}|Proyecto\\Proyecto.csproj|c:\\users\\gesel\\source\\repos\\proyecto\\proyectobibliorama\\proyecto\\areas\\empresa\\controllers\\informacionempresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1820747-77E0-45B4-934B-5A2366A9BA32}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\areas\\empresa\\controllers\\informacionempresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1820747-77E0-45B4-934B-5A2366A9BA32}|Proyecto\\Proyecto.csproj|c:\\users\\gesel\\source\\repos\\proyecto\\proyectobibliorama\\proyecto\\areas\\productos\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1820747-77E0-45B4-934B-5A2366A9BA32}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\areas\\productos\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D8153D-2F43-4C10-9D13-5B1C8DAC7ACB}|Proyecto.Aplicacion\\Proyecto.Aplicacion.csproj|c:\\users\\gesel\\source\\repos\\proyecto\\proyectobibliorama\\proyecto.aplicacion\\servicios\\informacionempresaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D8153D-2F43-4C10-9D13-5B1C8DAC7ACB}|Proyecto.Aplicacion\\Proyecto.Aplicacion.csproj|solutionrelative:proyecto.aplicacion\\servicios\\informacionempresaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC5A26AB-B746-4CE7-A1AC-926F1DA3C95D}|Proyecto.Infraestructura\\Proyecto.Infraestructura.csproj|c:\\users\\gesel\\source\\repos\\proyecto\\proyectobibliorama\\proyecto.infraestructura\\repositorios\\informacionempresarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC5A26AB-B746-4CE7-A1AC-926F1DA3C95D}|Proyecto.Infraestructura\\Proyecto.Infraestructura.csproj|solutionrelative:proyecto.infraestructura\\repositorios\\informacionempresarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D8153D-2F43-4C10-9D13-5B1C8DAC7ACB}|Proyecto.Aplicacion\\Proyecto.Aplicacion.csproj|c:\\users\\gesel\\source\\repos\\proyecto\\proyectobibliorama\\proyecto.aplicacion\\servicios\\libroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D8153D-2F43-4C10-9D13-5B1C8DAC7ACB}|Proyecto.Aplicacion\\Proyecto.Aplicacion.csproj|solutionrelative:proyecto.aplicacion\\servicios\\libroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC5A26AB-B746-4CE7-A1AC-926F1DA3C95D}|Proyecto.Infraestructura\\Proyecto.Infraestructura.csproj|c:\\users\\gesel\\source\\repos\\proyecto\\proyectobibliorama\\proyecto.infraestructura\\repositorios\\librosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC5A26AB-B746-4CE7-A1AC-926F1DA3C95D}|Proyecto.Infraestructura\\Proyecto.Infraestructura.csproj|solutionrelative:proyecto.infraestructura\\repositorios\\librosrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14D8153D-2F43-4C10-9D13-5B1C8DAC7ACB}|Proyecto.Aplicacion\\Proyecto.Aplicacion.csproj|c:\\users\\gesel\\source\\repos\\proyecto\\proyectobibliorama\\proyecto.aplicacion\\perfil\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14D8153D-2F43-4C10-9D13-5B1C8DAC7ACB}|Proyecto.Aplicacion\\Proyecto.Aplicacion.csproj|solutionrelative:proyecto.aplicacion\\perfil\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF79F63A-5EC2-496C-901F-0E6B3A57AE39}|Proyecto.Dominio\\Proyecto.Dominio.csproj|c:\\users\\gesel\\source\\repos\\proyecto\\proyectobibliorama\\proyecto.dominio\\entidades\\informacionempresamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF79F63A-5EC2-496C-901F-0E6B3A57AE39}|Proyecto.Dominio\\Proyecto.Dominio.csproj|solutionrelative:proyecto.dominio\\entidades\\informacionempresamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1820747-77E0-45B4-934B-5A2366A9BA32}|Proyecto\\Proyecto.csproj|c:\\users\\gesel\\source\\repos\\proyecto\\proyectobibliorama\\proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1820747-77E0-45B4-934B-5A2366A9BA32}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +54,140 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EstadoDireccionEnum.cs",
-              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Dominio\\Entidades\\Enums\\EstadoDireccionEnum.cs",
-              "RelativeDocumentMoniker": "Proyecto.Dominio\\Entidades\\Enums\\EstadoDireccionEnum.cs",
-              "ToolTip": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Dominio\\Entidades\\Enums\\EstadoDireccionEnum.cs",
-              "RelativeToolTip": "Proyecto.Dominio\\Entidades\\Enums\\EstadoDireccionEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "InformacionEmpresaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Infraestructura\\Repositorios\\InformacionEmpresaRepositorio.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infraestructura\\Repositorios\\InformacionEmpresaRepositorio.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Infraestructura\\Repositorios\\InformacionEmpresaRepositorio.cs",
+              "RelativeToolTip": "Proyecto.Infraestructura\\Repositorios\\InformacionEmpresaRepositorio.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T10:15:19.455Z",
+              "WhenOpened": "2025-08-29T23:25:16.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibrosRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Infraestructura\\Repositorios\\LibrosRepositorio.cs",
+              "RelativeDocumentMoniker": "Proyecto.Infraestructura\\Repositorios\\LibrosRepositorio.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Infraestructura\\Repositorios\\LibrosRepositorio.cs",
+              "RelativeToolTip": "Proyecto.Infraestructura\\Repositorios\\LibrosRepositorio.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T23:25:05.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InformacionEmpresaModel.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Dominio\\Entidades\\InformacionEmpresaModel.cs",
+              "RelativeDocumentMoniker": "Proyecto.Dominio\\Entidades\\InformacionEmpresaModel.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Dominio\\Entidades\\InformacionEmpresaModel.cs",
+              "RelativeToolTip": "Proyecto.Dominio\\Entidades\\InformacionEmpresaModel.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T23:21:02.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InformacionEmpresaService.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Aplicacion\\Servicios\\InformacionEmpresaService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Aplicacion\\Servicios\\InformacionEmpresaService.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Aplicacion\\Servicios\\InformacionEmpresaService.cs",
+              "RelativeToolTip": "Proyecto.Aplicacion\\Servicios\\InformacionEmpresaService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T23:04:55.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto\\Program.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Program.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto\\Program.cs",
+              "RelativeToolTip": "Proyecto\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T22:53:28.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InformacionEmpresaController.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto\\Areas\\Empresa\\Controllers\\InformacionEmpresaController.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Areas\\Empresa\\Controllers\\InformacionEmpresaController.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto\\Areas\\Empresa\\Controllers\\InformacionEmpresaController.cs",
+              "RelativeToolTip": "Proyecto\\Areas\\Empresa\\Controllers\\InformacionEmpresaController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T22:53:07.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Aplicacion\\Perfil\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Proyecto.Aplicacion\\Perfil\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Aplicacion\\Perfil\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Proyecto.Aplicacion\\Perfil\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T19:43:50.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "92b99ffb-bb06-4f75-abe7-75fb0d632102",
+        "Display": 0,
+        "X": 89,
+        "Y": 49,
+        "Width": 679,
+        "Height": 874,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto\\Areas\\Productos\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Areas\\Productos\\Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto\\Areas\\Productos\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "Proyecto\\Areas\\Productos\\Controllers\\LibrosController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAEkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T22:51:15.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibroService.cs",
+              "DocumentMoniker": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Aplicacion\\Servicios\\LibroService.cs",
+              "RelativeDocumentMoniker": "Proyecto.Aplicacion\\Servicios\\LibroService.cs",
+              "ToolTip": "C:\\Users\\gesel\\source\\repos\\Proyecto\\ProyectoBibliorama\\Proyecto.Aplicacion\\Servicios\\LibroService.cs",
+              "RelativeToolTip": "Proyecto.Aplicacion\\Servicios\\LibroService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwCUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T23:05:34.9Z",
               "EditorCaption": ""
             }
           ]
