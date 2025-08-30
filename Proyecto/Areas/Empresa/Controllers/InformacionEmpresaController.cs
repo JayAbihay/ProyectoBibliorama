@@ -42,7 +42,7 @@ namespace Proyecto.Areas.Empresa.Controllers
         // POST: InformacionEmpresaController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Crear(InformacionEmpresaModel info, IFormFile? imagen1, IFormFile? imagen2, IFormFile? imagen3)
+        public async Task<IActionResult> Crear(InformacionEmpresaModel info, IFormFile? logoImagen, IFormFile? imagen1, IFormFile? imagen2, IFormFile? imagen3)
         {
 
             if (!ModelState.IsValid)
@@ -60,10 +60,30 @@ namespace Proyecto.Areas.Empresa.Controllers
             }
 
             // IMAGENES
-
+            ModelState.Remove("LogoImagePath");
             ModelState.Remove("CarouselImage1Path");
             ModelState.Remove("CarouselImage2Path");
             ModelState.Remove("CarouselImage3Path");
+
+            if (logoImagen != null && logoImagen.Length > 0)
+            {
+                var uploadsFolder = Path.Combine(_env.WebRootPath, "images", "empresa");
+                Directory.CreateDirectory(uploadsFolder); // Asegura que el directorio exista
+                var uniqueFileName = Guid.NewGuid().ToString() + "_" + logoImagen.FileName;
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    imagen1.CopyTo(fileStream);
+                }
+
+                info.CarouselImage1Path = "/images/empresa/" + uniqueFileName;
+            }
+            else
+            {
+                ModelState.AddModelError("LogoImagePath", "La imagen de logo es obligatoria.");
+                return View(info);
+            }
 
             if (imagen1 != null && imagen1.Length > 0)
             {

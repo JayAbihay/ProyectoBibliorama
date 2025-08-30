@@ -34,6 +34,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Empresa/Views/InformacionEmpresa/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wcmVzYVxWaWV3c1xJbmZvcm1hY2lvbkVtcHJlc2FcQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Empresa/Views/InformacionEmpresa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wcmVzYVxWaWV3c1xJbmZvcm1hY2lvbkVtcHJlc2FcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/gesel/source/repos/Proyecto/ProyectoBibliorama/Proyecto/Areas/Empresa/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wcmVzYVxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

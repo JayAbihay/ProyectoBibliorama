@@ -1,0 +1,99 @@
+﻿@using Proyecto.Dominio.Entidades
+@using Proyecto.Dominio.Entidades.Enums
+@model InformacionEmpresaModel
+
+@{
+    ViewData["Title"] = "Crear Información de la Empresa";
+}
+
+<h1 class="text-center">Crear Información de la Empresa</h1>
+
+<div class="float-end"><a asp-action="Index" asp-controller="InformacionEmpresa" class="btn btn-secondary" asp-area="Empresa">Volver al Inicio</a></div>
+<hr />
+<br />
+
+<form asp-controller="InformacionEmpresa" asp-action="Crear" method="post" class="mt-4" enctype="multipart/form-data">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.NombreEmpresa)
+        @Html.TextBoxFor(model => model.NombreEmpresa, new { @class = "form-control", @placeholder = "Ingresa el nombre de la empresa..." })
+        @Html.ValidationMessageFor(model => model.NombreEmpresa, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.EstadoNombre)
+        @Html.DropDownListFor(model => model.EstadoNombre, Html.GetEnumSelectList<EstadoNombreEnum>(), "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.EstadoNombre, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.Direccion)
+        @Html.TextBoxFor(model => model.Direccion, new { @class = "form-control", @placeholder = "Ingresa la dirección de la empresa..." })
+        @Html.ValidationMessageFor(model => model.Direccion, "", new { @class = "text-danger" })
+    </div>
+    
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.EstadoDireccion)
+        @Html.DropDownListFor(model => model.EstadoDireccion, Html.GetEnumSelectList<EstadoDireccionEnum>(), "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.EstadoDireccion, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.Telefono)
+        @Html.TextBoxFor(model => model.Telefono, new { @class = "form-control", @placeholder = "Ingresa el teléfono de la empresa..." })
+        @Html.ValidationMessageFor(model => model.Telefono, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.EstadoTelefono)
+        @Html.DropDownListFor(model => model.EstadoTelefono, Html.GetEnumSelectList<EstadoGeneralEnum>(), "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.EstadoTelefono, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.CorreoElectronico)
+        @Html.TextBoxFor(model => model.CorreoElectronico, new { @class = "form-control", @placeholder = "Ingresa el correo electrónico de la empresa..." })})
+        @Html.ValidationMessageFor(model => model.CorreoElectronico, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.EstadoCorreoElectronico)
+        @Html.DropDownListFor(model => model.EstadoCorreoElectronico, Html.GetEnumSelectList<EstadoGeneralEnum>(), "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.EstadoCorreoElectronico, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.Identificacion)
+        @Html.TextBoxFor(model => model.Identificacion, new { @class = "form-control", @placeholder = "Ingresa la identificación de la empresa..." })
+        @Html.ValidationMessageFor(model => model.Identificacion, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.EstadoIdentificacion)
+        @Html.DropDownListFor(model => model.EstadoIdentificacion, Html.GetEnumSelectList<EstadoGeneralEnum>(), "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.EstadoIdentificacion, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.LogoImagePath)
+        <input type="file" name="logoImagen" id="logoImagen" accept="image/jpeg,image/png" />
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.LogoImagePath)
+        <input type="file" name="imagen1" id="imagen1" accept="image/jpeg,image/png" />
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.LogoImagePath)
+        <input type="file" name="imagen2" id="imagen2" accept="image/jpeg,image/png" />
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        @Html.LabelFor(model => model.LogoImagePath)
+        <input type="file" name="imagen3" id="imagen3" accept="image/jpeg,image/png" />
+    </div>
+
+
+</form>
