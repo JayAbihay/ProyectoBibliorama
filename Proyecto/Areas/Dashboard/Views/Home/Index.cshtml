@@ -1,10 +1,8 @@
 ﻿@using Proyecto.ViewModels
-@model ListadoLibroViewModel
-
+@using Proyecto.Dominio.Entidades.Enums
+@model LibroEInformacionEmpresaViewModel
 @{
     ViewData["Title"] = "Home Page";
-   
-
 }
 
 <html lang="en" style="margin-bottom: 2%;">
@@ -39,6 +37,22 @@
 </head>
 
 <body>
+
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <span class="fs-4"><i class="bi bi-bookmarks"></i> @foreach(var nombre in Model.InformacionesEmpresa.Where(e => e.EstadoNombre == EstadoNombreEnum.NombreActual).Take(1)){
+                    @nombre.NombreEmpresa
+                }</span>
+            </a>
+
+            <ul class="nav nav-pills float-end">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Accede como cliente</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Accede como empleado</a></li>
+            </ul>
+        </header>
+    </div>
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">

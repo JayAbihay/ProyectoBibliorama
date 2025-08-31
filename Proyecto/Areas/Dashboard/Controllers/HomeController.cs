@@ -12,21 +12,23 @@ namespace Proyecto.Areas.Dashboard.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly ILibroService _libroService;
         private readonly ICategoriaService _categoriaService;
-
-        public HomeController(ILogger<HomeController> logger,ILibroService libroService, ICategoriaService categoriaService)
+        private readonly IInformacionEmpresaService _informacionEmpresaService;
+        public HomeController(ILogger<HomeController> logger,ILibroService libroService, ICategoriaService categoriaService, IInformacionEmpresaService informacionEmpresaService)
         {
             _logger = logger;
             _libroService = libroService;
             _categoriaService = categoriaService;
+            _informacionEmpresaService = informacionEmpresaService;
         }
 
         public async Task<IActionResult> Index()
         {
             var listadoLibros = await _libroService.ObtenerListadoLibrosAsync();
-
-            var viewModel = new ListadoLibroViewModel()
+            var listadoInformacionEmpresa = await _informacionEmpresaService.ObtenerListadoInformacionEmpresaAsync(); 
+            var viewModel = new LibroEInformacionEmpresaViewModel()
             {
-                Libros = listadoLibros
+                Libros = listadoLibros,
+                InformacionesEmpresa = listadoInformacionEmpresa
             };
             return View(viewModel);
         }

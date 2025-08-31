@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Proyecto.Aplicacion.Interfaces;
 using Proyecto.Dominio.Entidades;
+using Proyecto.Dominio.Entidades.Enums;
+using Proyecto.Dominio.Interfaces;
 using Proyecto.ViewModels;
 
 namespace Proyecto.Areas.Empresa.Controllers
@@ -10,10 +12,12 @@ namespace Proyecto.Areas.Empresa.Controllers
     {
         private readonly IInformacionEmpresaService _informacionEmpresaService;
         private readonly IWebHostEnvironment _env;
-        public InformacionEmpresaController(IInformacionEmpresaService informacionEmpresaService, IWebHostEnvironment env)
+        private readonly IUnitOfWork _unitOfWork;
+        public InformacionEmpresaController(IInformacionEmpresaService informacionEmpresaService, IWebHostEnvironment env, IUnitOfWork unitOfWork)
         {
             _informacionEmpresaService = informacionEmpresaService;
             _env = env;
+            _unitOfWork = unitOfWork;
         }
         // GET: InformacionEmpresaController
         public async Task<IActionResult> Index()
@@ -44,13 +48,17 @@ namespace Proyecto.Areas.Empresa.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Crear(InformacionEmpresaModel info, IFormFile? logoImagen, IFormFile? imagen1, IFormFile? imagen2, IFormFile? imagen3)
         {
+            // Quitar validaciones de campos que se llenarán manualmente
+            ModelState.Remove("LogoImagePath");
+            ModelState.Remove("CarouselImage1Path");
+            ModelState.Remove("CarouselImage2Path");
+            ModelState.Remove("CarouselImage3Path");
 
             if (!ModelState.IsValid)
             {
                 var errores = ModelState.Values.SelectMany(v => v.Errors)
-                                       .Select(e => e.ErrorMessage).ToList();
+                                           .Select(e => e.ErrorMessage).ToList();
 
-                                        // solo para ver en consola/logs
                 foreach (var error in errores)
                 {
                     Console.WriteLine(error);
@@ -68,22 +76,23 @@ namespace Proyecto.Areas.Empresa.Controllers
             if (logoImagen != null && logoImagen.Length > 0)
             {
                 var uploadsFolder = Path.Combine(_env.WebRootPath, "images", "empresa");
-                Directory.CreateDirectory(uploadsFolder); // Asegura que el directorio exista
+                Directory.CreateDirectory(uploadsFolder);
                 var uniqueFileName = Guid.NewGuid().ToString() + "_" + logoImagen.FileName;
                 var filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
-                    imagen1.CopyTo(fileStream);
+                    await logoImagen.CopyToAsync(fileStream); // usar el logo correcto
                 }
 
-                info.CarouselImage1Path = "/images/empresa/" + uniqueFileName;
+                info.LogoImagePath = "/images/empresa/" + uniqueFileName; // asignar al campo correcto
             }
             else
             {
                 ModelState.AddModelError("LogoImagePath", "La imagen de logo es obligatoria.");
                 return View(info);
             }
+
 
             if (imagen1 != null && imagen1.Length > 0)
             {
@@ -190,5 +199,84 @@ namespace Proyecto.Areas.Empresa.Controllers
                 return View();
             }
         }
+
+        public async Task<IActionResult> CambiarEstadoNombre (int id, EstadoNombreEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoNombreAsync(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoDireccion(int id, EstadoDireccionEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoDireccionAsync(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoDescripcion(int id, EstadoGeneralEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoDescripcionAsync(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoTelefono(int id, EstadoGeneralEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoTelefonoAsync(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoCorreoElectronico(int id, EstadoGeneralEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoCorreoElectronicoAsync(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoIdentificacion(int id, EstadoGeneralEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoIdentificacionAsync(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoLogo(int id, EstadoGeneralEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoLogoAsync(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoCarouselImage1Path(int id, EstadoGeneralEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoCarouselImage1PathAsync(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoCarouselImage2Path(int id, EstadoGeneralEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoCarouselImage2PathAsync(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoCarouselImage3Path(int id, EstadoGeneralEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoCarouselImage3PathAsync(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoDescripcionCarousel1(int id, EstadoGeneralEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoDescripcionCarousel1Async(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoDescripcionCarousel2(int id, EstadoGeneralEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoDescripcionCarousel2Async(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CambiarEstadoDescripcionCarousel3(int id, EstadoGeneralEnum nuevoEstado)
+        {
+            await _informacionEmpresaService.CambiarEstadoDescripcionCarousel3Async(id, nuevoEstado);
+            return RedirectToAction("Index");
+        }
+
     }
 }

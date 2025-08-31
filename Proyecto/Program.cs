@@ -25,7 +25,7 @@ builder.Services.AddScoped<IInformacionEmpresaService, InformacionEmpresaService
 builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
 builder.Services.AddScoped<ILibrosRepositorio, LibrosRepositorio>();
 builder.Services.AddScoped<IInformacionEmpresaRepositorio, InformacionEmpresaRepositorio>();
-
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
